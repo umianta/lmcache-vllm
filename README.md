@@ -196,9 +196,23 @@ sudo apt install python3-venv python3-full
 The scripts never touch the system Python — all binaries are called as
 `.venv/bin/pip`, `.venv/bin/vllm`, etc.
 
+### `.venv/bin/pip: No such file or directory` during install
+
+The venv was created without pip (happens on some Ubuntu setups). Delete it and
+reinstall — `install.sh` now bootstraps pip automatically via `ensurepip`:
+
+```bash
+rm -rf .venv
+./install.sh
+```
+
 ### `exec: lmcache: not found` or `exec: vllm: not found`
 
-The venv does not exist yet. Run `./install.sh` first.
+The venv does not exist or `./install.sh` did not complete. Run it first:
+
+```bash
+./install.sh
+```
 
 ### `Cannot reach http://localhost:8080`
 
