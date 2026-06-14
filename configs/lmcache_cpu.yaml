@@ -1,0 +1,5 @@
+# LMCache config for CPU-only L1 cache (no remote backend).
+# Used with the embedded vLLM connector (Option A in README).
+chunk_size: 16
+local_cpu: true
+max_local_cpu_size: 20.0

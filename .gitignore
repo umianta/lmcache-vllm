@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Secrets / local config overrides
+*.local.yaml
+*.local.sh
+.env
+
+# Model cache (can be huge)
+~/.cache/huggingface/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LMCache local disk cache (if ever enabled)
+local/
