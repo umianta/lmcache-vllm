@@ -15,6 +15,12 @@ if [ ! -d "$VENV" ]; then
     python3 -m venv "$VENV"
 fi
 
+# Bootstrap pip if the venv was created without it (common on Ubuntu)
+if [ ! -f "$PIP" ]; then
+    echo "Bootstrapping pip..."
+    "$VENV/bin/python" -m ensurepip --upgrade
+fi
+
 echo "Upgrading pip..."
 "$PIP" install --upgrade pip
 
