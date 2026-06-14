@@ -6,8 +6,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VENV="$SCRIPT_DIR/.venv"
-PIP="$VENV/bin/pip"
-PYTHON="$VENV/bin/python"
+PYTHON="$VENV/bin/python3"
 
 # ── Create venv ────────────────────────────────────────────────────────────────
 if [ ! -d "$VENV" ]; then
@@ -15,22 +14,41 @@ if [ ! -d "$VENV" ]; then
     python3 -m venv "$VENV"
 fi
 
-# Bootstrap pip if the venv was created without it (common on Ubuntu)
-if [ ! -f "$PIP" ]; then
+# Bootstrap pip if missing (Ubuntu may omit it; ensurepip installs pip3/pip3.x)
+if ! "$PYTHON" -m pip --version &>/dev/null; then
     echo "Bootstrapping pip..."
-    "$VENV/bin/python" -m ensurepip --upgrade
+    "$PYTHON" -m ensurepip --upgrade
 fi
 
+# Use 'python -m pip' — works regardless of whether 'pip' or 'pip3' binary exists
 echo "Upgrading pip..."
-"$PIP" install --upgrade pip
+"$PYTHON" -m pip install --upgrade pip
+
+# ── Skip if already installed ─────────────────────────────────────────────────
+VLLM_OK=$("$PYTHON" -c "import vllm; print(vllm.__version__)" 2>/dev/null || true)
+LMCACHE_OK=$("$PYTHON" -c "import lmcache; print(lmcache.__version__)" 2>/dev/null || true)
+
+if [ -n "$VLLM_OK" ] && [ -n "$LMCACHE_OK" ]; then
+    echo ""
+    echo "Already installed:"
+    echo "  vllm   : $VLLM_OK"
+    echo "  lmcache: $LMCACHE_OK"
+    echo ""
+    echo "Run ./start_lmcache.sh and ./start_vllm.sh to start."
+    exit 0
+fi
 
 # ── Install vLLM ──────────────────────────────────────────────────────────────
-echo "Installing vLLM..."
-"$PIP" install "vllm==0.8.5"
+if [ -z "$VLLM_OK" ]; then
+    echo "Installing vLLM..."
+    "$PYTHON" -m pip install "vllm==0.8.5"
+fi
 
 # ── Install LMCache ───────────────────────────────────────────────────────────
-echo "Installing LMCache..."
-"$PIP" install "lmcache[vllm]==0.4.7"
+if [ -z "$LMCACHE_OK" ]; then
+    echo "Installing LMCache..."
+    "$PYTHON" -m pip install "lmcache[vllm]==0.4.7"
+fi
 
 echo ""
 echo "Install complete."
