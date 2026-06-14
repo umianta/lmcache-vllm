@@ -105,15 +105,15 @@ VLLM_PORT=8002 ./start_vllm.sh        # different port
 ```bash
 source .venv/bin/activate
 
-python src/experiments.py --list       # see all experiments
-python src/experiments.py baseline     # cold vs warm reference
-python src/experiments.py all          # run everything
+python3 src/experiments.py --list       # see all experiments
+python3 src/experiments.py baseline     # cold vs warm reference
+python3 src/experiments.py all          # run everything
 ```
 
 ### 5 — Clear the cache
 
 ```bash
-python src/cache_utils.py
+python3 src/cache_utils.py
 # or directly:
 curl -X POST http://localhost:8080/clear-cache
 ```
