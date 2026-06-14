@@ -229,7 +229,7 @@ the cold run (cross-run caching).
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'xyChart': {'plotColorPalette': '#f97316'}}}}%%
 xychart-beta
-    title "LMCache Speedup vs Cold Baseline"
+    title "vLLM + LMCache | Speedup vs Cold Baseline (Qwen3-8B, GB10)"
     x-axis ["Mean TTFT", "P50 TTFT", "P90 TTFT", "P99 TTFT", "Input tput", "Output tput"]
     y-axis "Speedup (x)" 0 --> 130
     bar [37, 16, 52, 124, 10, 11]
@@ -240,8 +240,8 @@ xychart-beta
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'xyChart': {'plotColorPalette': '#ef4444,#22c55e'}}}}%%
 xychart-beta
-    title "Input Throughput - Cold vs Warm (tok/s)"
-    x-axis ["Cold (no cache)", "Warm (LMCache hit)"]
+    title "vLLM + LMCache | Input Throughput: No Cache vs LMCache (tok/s)"
+    x-axis ["vLLM cold (no cache)", "vLLM + LMCache (warm)"]
     y-axis "tok/s" 0 --> 4000
     bar [365, 3568]
 ```
@@ -251,8 +251,8 @@ xychart-beta
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'xyChart': {'plotColorPalette': '#ef4444,#22c55e'}}}}%%
 xychart-beta
-    title "Output Throughput - Cold vs Warm (tok/s)"
-    x-axis ["Cold (no cache)", "Warm (LMCache hit)"]
+    title "vLLM + LMCache | Output Throughput: No Cache vs LMCache (tok/s)"
+    x-axis ["vLLM cold (no cache)", "vLLM + LMCache (warm)"]
     y-axis "tok/s" 0 --> 80
     bar [7, 76]
 ```
@@ -262,7 +262,7 @@ xychart-beta
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'xyChart': {'plotColorPalette': '#a855f7'}}}}%%
 xychart-beta
-    title "TTFT Percentiles - Warm (LMCache hit)"
+    title "vLLM + LMCache | TTFT Percentiles on Warm Cache (ms)"
     x-axis ["Mean", "P50", "P90", "P99"]
     y-axis "TTFT (ms)" 0 --> 1800
     bar [912, 855, 1234, 1664]
