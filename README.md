@@ -209,8 +209,13 @@ Warm run = LMCache L1 populated from the cold run (cross-run caching).
 | LMCache L1 size | 20 GB |
 | Document length | 6,000 tokens |
 | Queries per document | 3 |
+| Total documents | 76 (10 GB KV budget ÷ 6,000 tok/doc) |
+| Cold requests | 76 (query 0 per document — cache empty) |
+| Warm requests | 152 (queries 1 & 2 per document — cache populated) |
+| Total requests | 228 (0 failed) |
 | Concurrent requests | 16 |
-| Shuffle policy | round\_robin |
+| Shuffle policy | round\_robin (q0 cold → q1/q2 warm, per document) |
+| Benchmark duration | 384s (warm phase) |
 
 ### Cold vs Warm
 
