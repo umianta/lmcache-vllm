@@ -6,14 +6,15 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VENV="$SCRIPT_DIR/.venv"
+ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+VENV="$ROOT/.venv"
 
 if [ ! -f "$VENV/bin/lmcache" ]; then
-    echo "ERROR: venv not found or lmcache not installed. Run ./install.sh first." >&2
+    echo "ERROR: venv not found or lmcache not installed. Run ./setup/install.sh first." >&2
     exit 1
 fi
 
-L1_SIZE="${LMCACHE_L1_SIZE_GB:-10}"
+L1_SIZE="${LMCACHE_L1_SIZE_GB:-20}"
 
 exec "$VENV/bin/lmcache" server \
     --l1-size-gb "$L1_SIZE" \

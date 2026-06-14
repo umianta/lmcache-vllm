@@ -1,0 +1,89 @@
+[1m══════════════════════════════════════════════════[0m
+[1m Workload: [96mlong-doc-qa[0m
+[1m──────────────────────────────────────────────────[0m
+  Documents:        [93m46[0m
+  Queries/doc:      [93m1[0m
+  Total requests:   [93m46[0m
+  Document length:  [93m10000[0m tokens
+  Max inflight:     [93m4[0m
+  Shuffle policy:   [93mtile[0m
+[1m══════════════════════════════════════════════════[0m
+[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m0s[0m
+[2K  [92m0[0m successful   [96m0[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m1s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m10[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/46[0m
+[2K  [93m[log] Warmup warmup_doc8 failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 1 output tokens and your prompt contains at least 8192 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=8192)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}[0m
+[2K  [93m[log] Warmup 10/46[0m
+[2K  [93m[log] Warmup warmup_doc9 failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 1 output tokens and your prompt contains at least 8192 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=8192)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}[0m
+[2K  [93m[log] Warmup 11/46[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m2s[0m
+[2K  [92m0[0m successful   [96m4[0m in-flight   [91m8[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Dispatched request doc7_q0 (doc 7, query 0)[0m
+[2K  [93m[log] Dispatched request doc8_q0 (doc 8, query 0)[0m
+[2K  [93m[log] Dispatched request doc9_q0 (doc 9, query 0)[0m
+[2K  [93m[log] Dispatched request doc10_q0 (doc 10, query 0)[0m
+[2K  [93m[log] Dispatched request doc11_q0 (doc 11, query 0)[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m3s[0m
+[2K  [92m0[0m successful   [96m0[0m in-flight   [91m46[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Dispatched request doc42_q0 (doc 42, query 0)[0m
+[2K  [93m[log] Dispatched request doc43_q0 (doc 43, query 0)[0m
+[2K  [93m[log] Dispatched request doc44_q0 (doc 44, query 0)[0m
+[2K  [93m[log] Dispatched request doc45_q0 (doc 45, query 0)[0m
+[2K  [93m[log] Benchmark complete[0m
+
+======== Engine Benchmark Result (long-doc-qa) =========
+-------------------- Configuration ---------------------
+Engine URL:                        http://localhost:8001
+Model:                                     Qwen/Qwen3-8B
+Workload:                                    long-doc-qa
+----------------------- Results ------------------------
+Successful requests:                                   0
+Failed requests:                                      46
+Benchmark duration (s):                             1.18
+Total input tokens:                                    0
+Total output tokens:                                   0
+Input throughput (tok/s):                           0.00
+Output throughput (tok/s):                          0.00
+----------------- Time to First Token ------------------
+Mean TTFT (ms):                                     0.00
+P50 TTFT (ms):                                      0.00
+P90 TTFT (ms):                                      0.00
+P99 TTFT (ms):                                      0.00
+-------------------- Decoding Speed --------------------
+Mean decode (tok/s):                                0.00
+P99 decode (tok/s):                                 0.00
+========================================================

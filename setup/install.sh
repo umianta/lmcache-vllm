@@ -5,7 +5,8 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-VENV="$SCRIPT_DIR/.venv"
+ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+VENV="$ROOT/.venv"
 PYTHON="$VENV/bin/python3"
 
 # ── Create venv ────────────────────────────────────────────────────────────────
@@ -50,6 +51,9 @@ if [ -n "$VLLM_OK" ] && [ -n "$LMCACHE_OK" ]; then
     exit 0
 fi
 
+# ── Build tools (flashinfer JIT-compiles sampling kernels at first run) ───────
+"$PYTHON" -m pip install --quiet ninja
+
 # ── Install vLLM ──────────────────────────────────────────────────────────────
 if [ -z "$VLLM_OK" ]; then
     echo "Installing vLLM..."
@@ -68,6 +72,7 @@ echo "  vllm   : $("$PYTHON" -c 'import vllm; print(vllm.__version__)')"
 echo "  lmcache: $("$PYTHON" -c 'import lmcache; print(lmcache.__version__)')"
 echo ""
 echo "Next steps:"
-echo "  1. ./start_lmcache.sh        # terminal 1 — cache server"
-echo "  2. ./start_vllm.sh           # terminal 2 — vLLM"
-echo "  3. source .venv/bin/activate && python src/experiments.py"
+echo "  1. ./setup/start_lmcache.sh        # terminal 1 — cache server"
+echo "  2. ./setup/start_vllm.sh           # terminal 2 — vLLM"
+echo "  3. ./benchmark/benchmark.sh        # terminal 3 — run benchmark"
+echo "  4. source .venv/bin/activate && python src/experiments.py"

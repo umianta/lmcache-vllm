@@ -1,0 +1,3815 @@
+[1m══════════════════════════════════════════════════[0m
+[1m Workload: [96mlong-doc-qa[0m
+[1m──────────────────────────────────────────────────[0m
+  Documents:        [93m76[0m
+  Queries/doc:      [93m1[0m
+  Total requests:   [93m76[0m
+  Document length:  [93m6000[0m tokens
+  Max inflight:     [93m4[0m
+  Shuffle policy:   [93mtile[0m
+[1m══════════════════════════════════════════════════[0m
+[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m0s[0m
+[2K  [92m0[0m successful   [96m0[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K
+[2K
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m1s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m2s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m3s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m4s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m5s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m6s[0m
+[2K  [92m0[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m0.0 ms[0m
+[2K  Avg decode:     [93m0.0 tok/s[0m
+[2K  Input tokens:   0
+[2K  Output tokens:  0
+[2K  Throughput:     0.0 in / 0.0 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m7s[0m
+[2K  [92m1[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6079.0 ms[0m
+[2K  Avg decode:     [93m658.4 tok/s[0m
+[2K  Input tokens:   6,002
+[2K  Output tokens:  1
+[2K  Throughput:     853.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m8s[0m
+[2K  [92m1[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6079.0 ms[0m
+[2K  Avg decode:     [93m658.4 tok/s[0m
+[2K  Input tokens:   6,002
+[2K  Output tokens:  1
+[2K  Throughput:     746.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m9s[0m
+[2K  [92m1[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6079.0 ms[0m
+[2K  Avg decode:     [93m658.4 tok/s[0m
+[2K  Input tokens:   6,002
+[2K  Output tokens:  1
+[2K  Throughput:     664.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m10s[0m
+[2K  [92m1[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6079.0 ms[0m
+[2K  Avg decode:     [93m658.4 tok/s[0m
+[2K  Input tokens:   6,002
+[2K  Output tokens:  1
+[2K  Throughput:     597.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m11s[0m
+[2K  [92m1[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6079.0 ms[0m
+[2K  Avg decode:     [93m658.4 tok/s[0m
+[2K  Input tokens:   6,002
+[2K  Output tokens:  1
+[2K  Throughput:     543.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m12s[0m
+[2K  [92m1[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6079.0 ms[0m
+[2K  Avg decode:     [93m658.4 tok/s[0m
+[2K  Input tokens:   6,002
+[2K  Output tokens:  1
+[2K  Throughput:     498.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m13s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     920.5 in / 0.2 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m14s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     855.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m15s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     798.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m16s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     748.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m17s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     704.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m18s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     665.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m19s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     630.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m20s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     598.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m21s[0m
+[2K  [92m2[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m6114.9 ms[0m
+[2K  Avg decode:     [93m1247.8 tok/s[0m
+[2K  Input tokens:   12,004
+[2K  Output tokens:  2
+[2K  Throughput:     570.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m22s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     816.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m23s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     781.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m24s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     748.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m25s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     718.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m26s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     691.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m27s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     665.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m28s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     642.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m29s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     619.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m30s[0m
+[2K  [92m3[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7086.7 ms[0m
+[2K  Avg decode:     [93m1514.9 tok/s[0m
+[2K  Input tokens:   18,006
+[2K  Output tokens:  3
+[2K  Throughput:     599.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Starting warmup phase[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m31s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     773.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m32s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     749.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m33s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     726.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m34s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     705.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m35s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     685.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m36s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     666.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m37s[0m
+[2K  [92m4[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7602.1 ms[0m
+[2K  Avg decode:     [93m1596.7 tok/s[0m
+[2K  Input tokens:   24,008
+[2K  Output tokens:  4
+[2K  Throughput:     648.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 1/76[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m38s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     788.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m39s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     768.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m40s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     749.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m41s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     731.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m42s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     713.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m43s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     697.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m44s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     681.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m45s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     666.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m46s[0m
+[2K  [92m5[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7478.9 ms[0m
+[2K  Avg decode:     [93m1582.3 tok/s[0m
+[2K  Input tokens:   30,010
+[2K  Output tokens:  5
+[2K  Throughput:     651.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 2/76[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m47s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     765.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m48s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     749.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m49s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     734.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m50s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     719.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m51s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     705.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m52s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     691.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m53s[0m
+[2K  [92m6[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7740.9 ms[0m
+[2K  Avg decode:     [93m1741.5 tok/s[0m
+[2K  Input tokens:   36,012
+[2K  Output tokens:  6
+[2K  Throughput:     678.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 3/76[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m54s[0m
+[2K  [92m7[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7682.4 ms[0m
+[2K  Avg decode:     [93m1556.5 tok/s[0m
+[2K  Input tokens:   42,014
+[2K  Output tokens:  7
+[2K  Throughput:     777.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m55s[0m
+[2K  [92m7[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7682.4 ms[0m
+[2K  Avg decode:     [93m1556.5 tok/s[0m
+[2K  Input tokens:   42,014
+[2K  Output tokens:  7
+[2K  Throughput:     763.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m56s[0m
+[2K  [92m7[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7682.4 ms[0m
+[2K  Avg decode:     [93m1556.5 tok/s[0m
+[2K  Input tokens:   42,014
+[2K  Output tokens:  7
+[2K  Throughput:     749.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m57s[0m
+[2K  [92m7[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7682.4 ms[0m
+[2K  Avg decode:     [93m1556.5 tok/s[0m
+[2K  Input tokens:   42,014
+[2K  Output tokens:  7
+[2K  Throughput:     736.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m58s[0m
+[2K  [92m7[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7682.4 ms[0m
+[2K  Avg decode:     [93m1556.5 tok/s[0m
+[2K  Input tokens:   42,014
+[2K  Output tokens:  7
+[2K  Throughput:     723.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m59s[0m
+[2K  [92m7[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7682.4 ms[0m
+[2K  Avg decode:     [93m1556.5 tok/s[0m
+[2K  Input tokens:   42,014
+[2K  Output tokens:  7
+[2K  Throughput:     711.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 4/76[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m60s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     799.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m61s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     786.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m62s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     773.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m63s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     761.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m64s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     749.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m65s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     738.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m66s[0m
+[2K  [92m8[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7471.0 ms[0m
+[2K  Avg decode:     [93m1422.6 tok/s[0m
+[2K  Input tokens:   48,016
+[2K  Output tokens:  8
+[2K  Throughput:     726.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 5/76[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m67s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     805.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m68s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     793.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m69s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     782.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m70s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     771.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m71s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     760.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m72s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     749.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m73s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     739.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m74s[0m
+[2K  [92m9[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7359.3 ms[0m
+[2K  Avg decode:     [93m1453.3 tok/s[0m
+[2K  Input tokens:   54,018
+[2K  Output tokens:  9
+[2K  Throughput:     729.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 6/76[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m75s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     799.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m76s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     789.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m77s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     778.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m78s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     768.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m79s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     759.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m80s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     749.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m81s[0m
+[2K  [92m10[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7487.1 ms[0m
+[2K  Avg decode:     [93m1485.9 tok/s[0m
+[2K  Input tokens:   60,020
+[2K  Output tokens:  10
+[2K  Throughput:     740.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 7/76[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m82s[0m
+[2K  [92m11[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7375.3 ms[0m
+[2K  Avg decode:     [93m1390.5 tok/s[0m
+[2K  Input tokens:   66,023
+[2K  Output tokens:  11
+[2K  Throughput:     804.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m83s[0m
+[2K  [92m11[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7375.3 ms[0m
+[2K  Avg decode:     [93m1390.5 tok/s[0m
+[2K  Input tokens:   66,023
+[2K  Output tokens:  11
+[2K  Throughput:     794.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m84s[0m
+[2K  [92m11[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7375.3 ms[0m
+[2K  Avg decode:     [93m1390.5 tok/s[0m
+[2K  Input tokens:   66,023
+[2K  Output tokens:  11
+[2K  Throughput:     785.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m85s[0m
+[2K  [92m11[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7375.3 ms[0m
+[2K  Avg decode:     [93m1390.5 tok/s[0m
+[2K  Input tokens:   66,023
+[2K  Output tokens:  11
+[2K  Throughput:     776.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m86s[0m
+[2K  [92m11[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7375.3 ms[0m
+[2K  Avg decode:     [93m1390.5 tok/s[0m
+[2K  Input tokens:   66,023
+[2K  Output tokens:  11
+[2K  Throughput:     767.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m87s[0m
+[2K  [92m11[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7375.3 ms[0m
+[2K  Avg decode:     [93m1390.5 tok/s[0m
+[2K  Input tokens:   66,023
+[2K  Output tokens:  11
+[2K  Throughput:     758.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 8/76[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m88s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     817.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m89s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     808.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m90s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     799.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m91s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     790.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m92s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     782.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m93s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     773.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m94s[0m
+[2K  [92m12[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7253.0 ms[0m
+[2K  Avg decode:     [93m1310.6 tok/s[0m
+[2K  Input tokens:   72,026
+[2K  Output tokens:  12
+[2K  Throughput:     765.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 9/76[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m95s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     820.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m96s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     812.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m97s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     803.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m98s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     795.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m99s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     787.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m100s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     779.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m101s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     772.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m102s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     764.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m103s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     757.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m104s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     749.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m105s[0m
+[2K  [92m13[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7274.9 ms[0m
+[2K  Avg decode:     [93m1243.5 tok/s[0m
+[2K  Input tokens:   78,029
+[2K  Output tokens:  13
+[2K  Throughput:     742.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 10/76[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m106s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     792.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m107s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     784.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m108s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     777.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m109s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     770.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m110s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     763.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m111s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     756.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m112s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     749.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m113s[0m
+[2K  [92m14[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7571.5 ms[0m
+[2K  Avg decode:     [93m1284.4 tok/s[0m
+[2K  Input tokens:   84,032
+[2K  Output tokens:  14
+[2K  Throughput:     743.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 11/76[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m114s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     789.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m115s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     782.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m116s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     775.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m117s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     769.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m118s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     762.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m119s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     756.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m120s[0m
+[2K  [92m15[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7586.8 ms[0m
+[2K  Avg decode:     [93m1330.0 tok/s[0m
+[2K  Input tokens:   90,035
+[2K  Output tokens:  15
+[2K  Throughput:     749.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 12/76[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m121s[0m
+[2K  [92m16[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7518.7 ms[0m
+[2K  Avg decode:     [93m1368.3 tok/s[0m
+[2K  Input tokens:   96,038
+[2K  Output tokens:  16
+[2K  Throughput:     793.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m122s[0m
+[2K  [92m16[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7518.7 ms[0m
+[2K  Avg decode:     [93m1368.3 tok/s[0m
+[2K  Input tokens:   96,038
+[2K  Output tokens:  16
+[2K  Throughput:     786.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m123s[0m
+[2K  [92m16[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7518.7 ms[0m
+[2K  Avg decode:     [93m1368.3 tok/s[0m
+[2K  Input tokens:   96,038
+[2K  Output tokens:  16
+[2K  Throughput:     780.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m124s[0m
+[2K  [92m16[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7518.7 ms[0m
+[2K  Avg decode:     [93m1368.3 tok/s[0m
+[2K  Input tokens:   96,038
+[2K  Output tokens:  16
+[2K  Throughput:     774.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m125s[0m
+[2K  [92m16[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7518.7 ms[0m
+[2K  Avg decode:     [93m1368.3 tok/s[0m
+[2K  Input tokens:   96,038
+[2K  Output tokens:  16
+[2K  Throughput:     767.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m126s[0m
+[2K  [92m16[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7518.7 ms[0m
+[2K  Avg decode:     [93m1368.3 tok/s[0m
+[2K  Input tokens:   96,038
+[2K  Output tokens:  16
+[2K  Throughput:     761.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 13/76[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m127s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     802.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m128s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     796.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m129s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     790.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m130s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     784.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m131s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     778.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m132s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     772.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m133s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     766.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m134s[0m
+[2K  [92m17[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7436.1 ms[0m
+[2K  Avg decode:     [93m1333.9 tok/s[0m
+[2K  Input tokens:   102,041
+[2K  Output tokens:  17
+[2K  Throughput:     761.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 14/76[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m135s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     799.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m136s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     793.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m137s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     788.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m138s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     782.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m139s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     776.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m140s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     771.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m141s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     765.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m142s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     760.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m143s[0m
+[2K  [92m18[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7489.2 ms[0m
+[2K  Avg decode:     [93m1374.1 tok/s[0m
+[2K  Input tokens:   108,044
+[2K  Output tokens:  18
+[2K  Throughput:     755.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 15/76[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m144s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     791.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m145s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     786.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m146s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     780.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m147s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     775.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m148s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     770.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m149s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     764.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m150s[0m
+[2K  [92m19[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7549.0 ms[0m
+[2K  Avg decode:     [93m1387.1 tok/s[0m
+[2K  Input tokens:   114,047
+[2K  Output tokens:  19
+[2K  Throughput:     759.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 16/76[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m151s[0m
+[2K  [92m20[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7547.1 ms[0m
+[2K  Avg decode:     [93m1417.4 tok/s[0m
+[2K  Input tokens:   120,050
+[2K  Output tokens:  20
+[2K  Throughput:     794.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m152s[0m
+[2K  [92m20[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7547.1 ms[0m
+[2K  Avg decode:     [93m1417.4 tok/s[0m
+[2K  Input tokens:   120,050
+[2K  Output tokens:  20
+[2K  Throughput:     789.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m153s[0m
+[2K  [92m20[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7547.1 ms[0m
+[2K  Avg decode:     [93m1417.4 tok/s[0m
+[2K  Input tokens:   120,050
+[2K  Output tokens:  20
+[2K  Throughput:     784.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m154s[0m
+[2K  [92m20[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7547.1 ms[0m
+[2K  Avg decode:     [93m1417.4 tok/s[0m
+[2K  Input tokens:   120,050
+[2K  Output tokens:  20
+[2K  Throughput:     779.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m155s[0m
+[2K  [92m20[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7547.1 ms[0m
+[2K  Avg decode:     [93m1417.4 tok/s[0m
+[2K  Input tokens:   120,050
+[2K  Output tokens:  20
+[2K  Throughput:     774.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m156s[0m
+[2K  [92m20[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7547.1 ms[0m
+[2K  Avg decode:     [93m1417.4 tok/s[0m
+[2K  Input tokens:   120,050
+[2K  Output tokens:  20
+[2K  Throughput:     769.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 17/76[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m157s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     802.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m158s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     797.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m159s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     792.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m160s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     787.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m161s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     782.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m162s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     777.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m163s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     772.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m164s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     768.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m165s[0m
+[2K  [92m21[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7477.4 ms[0m
+[2K  Avg decode:     [93m1433.9 tok/s[0m
+[2K  Input tokens:   126,053
+[2K  Output tokens:  21
+[2K  Throughput:     763.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 18/76[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m166s[0m
+[2K  [92m22[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7520.4 ms[0m
+[2K  Avg decode:     [93m1447.8 tok/s[0m
+[2K  Input tokens:   132,056
+[2K  Output tokens:  22
+[2K  Throughput:     795.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m167s[0m
+[2K  [92m22[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7520.4 ms[0m
+[2K  Avg decode:     [93m1447.8 tok/s[0m
+[2K  Input tokens:   132,056
+[2K  Output tokens:  22
+[2K  Throughput:     790.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m168s[0m
+[2K  [92m22[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7520.4 ms[0m
+[2K  Avg decode:     [93m1447.8 tok/s[0m
+[2K  Input tokens:   132,056
+[2K  Output tokens:  22
+[2K  Throughput:     785.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m169s[0m
+[2K  [92m22[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7520.4 ms[0m
+[2K  Avg decode:     [93m1447.8 tok/s[0m
+[2K  Input tokens:   132,056
+[2K  Output tokens:  22
+[2K  Throughput:     780.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m170s[0m
+[2K  [92m22[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7520.4 ms[0m
+[2K  Avg decode:     [93m1447.8 tok/s[0m
+[2K  Input tokens:   132,056
+[2K  Output tokens:  22
+[2K  Throughput:     776.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m171s[0m
+[2K  [92m22[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7520.4 ms[0m
+[2K  Avg decode:     [93m1447.8 tok/s[0m
+[2K  Input tokens:   132,056
+[2K  Output tokens:  22
+[2K  Throughput:     771.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 19/76[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m172s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     802.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m173s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     797.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m174s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     793.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m175s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     788.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m176s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     784.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m177s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     779.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m178s[0m
+[2K  [92m23[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7437.4 ms[0m
+[2K  Avg decode:     [93m1465.7 tok/s[0m
+[2K  Input tokens:   138,059
+[2K  Output tokens:  23
+[2K  Throughput:     775.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 20/76[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m179s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     804.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m180s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     799.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m181s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     795.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m182s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     791.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m183s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     786.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m184s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     782.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m185s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     778.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m186s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     774.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m187s[0m
+[2K  [92m24[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7446.2 ms[0m
+[2K  Avg decode:     [93m1423.3 tok/s[0m
+[2K  Input tokens:   144,062
+[2K  Output tokens:  24
+[2K  Throughput:     769.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 21/76[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m188s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     797.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m189s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     793.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m190s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     789.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m191s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     785.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m192s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     781.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m193s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     777.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m194s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     773.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m195s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     769.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m196s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     765.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m197s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     761.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m198s[0m
+[2K  [92m25[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7513.0 ms[0m
+[2K  Avg decode:     [93m1466.9 tok/s[0m
+[2K  Input tokens:   150,065
+[2K  Output tokens:  25
+[2K  Throughput:     757.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 22/76[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m199s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     783.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m200s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     779.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m201s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     776.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m202s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     772.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m203s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     768.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m204s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     764.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m205s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     760.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m206s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     757.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m207s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     753.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m208s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m209s[0m
+[2K  [92m26[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7646.9 ms[0m
+[2K  Avg decode:     [93m1474.1 tok/s[0m
+[2K  Input tokens:   156,068
+[2K  Output tokens:  26
+[2K  Throughput:     746.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 23/76[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m210s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     771.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m211s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     767.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m212s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     764.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m213s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     760.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m214s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     756.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m215s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     753.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m216s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m217s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     746.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m218s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     743.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m219s[0m
+[2K  [92m27[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7753.2 ms[0m
+[2K  Avg decode:     [93m1490.1 tok/s[0m
+[2K  Input tokens:   162,071
+[2K  Output tokens:  27
+[2K  Throughput:     739.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 24/76[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m220s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     763.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m221s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     760.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m222s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     756.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m223s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     753.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m224s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m225s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     746.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m226s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     743.3 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m227s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     740.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m228s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     736.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m229s[0m
+[2K  [92m28[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7855.3 ms[0m
+[2K  Avg decode:     [93m1505.2 tok/s[0m
+[2K  Input tokens:   168,074
+[2K  Output tokens:  28
+[2K  Throughput:     733.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 25/76[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m230s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     756.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m231s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     753.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m232s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m233s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     746.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m234s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     743.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m235s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     740.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m236s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     737.2 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m237s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     734.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m238s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     731.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m239s[0m
+[2K  [92m29[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7931.5 ms[0m
+[2K  Avg decode:     [93m1510.2 tok/s[0m
+[2K  Input tokens:   174,077
+[2K  Output tokens:  29
+[2K  Throughput:     728.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 26/76[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m240s[0m
+[2K  [92m30[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7993.7 ms[0m
+[2K  Avg decode:     [93m1508.7 tok/s[0m
+[2K  Input tokens:   180,080
+[2K  Output tokens:  30
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m241s[0m
+[2K  [92m30[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7993.7 ms[0m
+[2K  Avg decode:     [93m1508.7 tok/s[0m
+[2K  Input tokens:   180,080
+[2K  Output tokens:  30
+[2K  Throughput:     746.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m242s[0m
+[2K  [92m30[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7993.7 ms[0m
+[2K  Avg decode:     [93m1508.7 tok/s[0m
+[2K  Input tokens:   180,080
+[2K  Output tokens:  30
+[2K  Throughput:     743.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m243s[0m
+[2K  [92m30[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7993.7 ms[0m
+[2K  Avg decode:     [93m1508.7 tok/s[0m
+[2K  Input tokens:   180,080
+[2K  Output tokens:  30
+[2K  Throughput:     740.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m244s[0m
+[2K  [92m30[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7993.7 ms[0m
+[2K  Avg decode:     [93m1508.7 tok/s[0m
+[2K  Input tokens:   180,080
+[2K  Output tokens:  30
+[2K  Throughput:     737.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m245s[0m
+[2K  [92m30[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7993.7 ms[0m
+[2K  Avg decode:     [93m1508.7 tok/s[0m
+[2K  Input tokens:   180,080
+[2K  Output tokens:  30
+[2K  Throughput:     734.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 27/76[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m246s[0m
+[2K  [92m31[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7935.7 ms[0m
+[2K  Avg decode:     [93m1517.3 tok/s[0m
+[2K  Input tokens:   186,083
+[2K  Output tokens:  31
+[2K  Throughput:     756.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m247s[0m
+[2K  [92m31[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7935.7 ms[0m
+[2K  Avg decode:     [93m1517.3 tok/s[0m
+[2K  Input tokens:   186,083
+[2K  Output tokens:  31
+[2K  Throughput:     753.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m248s[0m
+[2K  [92m31[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7935.7 ms[0m
+[2K  Avg decode:     [93m1517.3 tok/s[0m
+[2K  Input tokens:   186,083
+[2K  Output tokens:  31
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m249s[0m
+[2K  [92m31[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7935.7 ms[0m
+[2K  Avg decode:     [93m1517.3 tok/s[0m
+[2K  Input tokens:   186,083
+[2K  Output tokens:  31
+[2K  Throughput:     746.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m250s[0m
+[2K  [92m31[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7935.7 ms[0m
+[2K  Avg decode:     [93m1517.3 tok/s[0m
+[2K  Input tokens:   186,083
+[2K  Output tokens:  31
+[2K  Throughput:     743.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m251s[0m
+[2K  [92m31[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7935.7 ms[0m
+[2K  Avg decode:     [93m1517.3 tok/s[0m
+[2K  Input tokens:   186,083
+[2K  Output tokens:  31
+[2K  Throughput:     741.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 28/76[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m252s[0m
+[2K  [92m32[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7853.5 ms[0m
+[2K  Avg decode:     [93m1484.1 tok/s[0m
+[2K  Input tokens:   192,086
+[2K  Output tokens:  32
+[2K  Throughput:     761.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m253s[0m
+[2K  [92m32[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7853.5 ms[0m
+[2K  Avg decode:     [93m1484.1 tok/s[0m
+[2K  Input tokens:   192,086
+[2K  Output tokens:  32
+[2K  Throughput:     758.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m254s[0m
+[2K  [92m32[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7853.5 ms[0m
+[2K  Avg decode:     [93m1484.1 tok/s[0m
+[2K  Input tokens:   192,086
+[2K  Output tokens:  32
+[2K  Throughput:     755.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m255s[0m
+[2K  [92m32[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7853.5 ms[0m
+[2K  Avg decode:     [93m1484.1 tok/s[0m
+[2K  Input tokens:   192,086
+[2K  Output tokens:  32
+[2K  Throughput:     752.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m256s[0m
+[2K  [92m32[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7853.5 ms[0m
+[2K  Avg decode:     [93m1484.1 tok/s[0m
+[2K  Input tokens:   192,086
+[2K  Output tokens:  32
+[2K  Throughput:     749.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m257s[0m
+[2K  [92m32[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7853.5 ms[0m
+[2K  Avg decode:     [93m1484.1 tok/s[0m
+[2K  Input tokens:   192,086
+[2K  Output tokens:  32
+[2K  Throughput:     747.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 29/76[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m258s[0m
+[2K  [92m33[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7811.2 ms[0m
+[2K  Avg decode:     [93m1523.3 tok/s[0m
+[2K  Input tokens:   198,089
+[2K  Output tokens:  33
+[2K  Throughput:     767.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m259s[0m
+[2K  [92m33[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7811.2 ms[0m
+[2K  Avg decode:     [93m1523.3 tok/s[0m
+[2K  Input tokens:   198,089
+[2K  Output tokens:  33
+[2K  Throughput:     764.4 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m260s[0m
+[2K  [92m33[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7811.2 ms[0m
+[2K  Avg decode:     [93m1523.3 tok/s[0m
+[2K  Input tokens:   198,089
+[2K  Output tokens:  33
+[2K  Throughput:     761.5 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m261s[0m
+[2K  [92m33[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7811.2 ms[0m
+[2K  Avg decode:     [93m1523.3 tok/s[0m
+[2K  Input tokens:   198,089
+[2K  Output tokens:  33
+[2K  Throughput:     758.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m262s[0m
+[2K  [92m33[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7811.2 ms[0m
+[2K  Avg decode:     [93m1523.3 tok/s[0m
+[2K  Input tokens:   198,089
+[2K  Output tokens:  33
+[2K  Throughput:     755.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m263s[0m
+[2K  [92m33[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7811.2 ms[0m
+[2K  Avg decode:     [93m1523.3 tok/s[0m
+[2K  Input tokens:   198,089
+[2K  Output tokens:  33
+[2K  Throughput:     752.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 30/76[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m264s[0m
+[2K  [92m34[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7760.3 ms[0m
+[2K  Avg decode:     [93m1530.1 tok/s[0m
+[2K  Input tokens:   204,092
+[2K  Output tokens:  34
+[2K  Throughput:     772.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m265s[0m
+[2K  [92m34[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7760.3 ms[0m
+[2K  Avg decode:     [93m1530.1 tok/s[0m
+[2K  Input tokens:   204,092
+[2K  Output tokens:  34
+[2K  Throughput:     769.8 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m266s[0m
+[2K  [92m34[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7760.3 ms[0m
+[2K  Avg decode:     [93m1530.1 tok/s[0m
+[2K  Input tokens:   204,092
+[2K  Output tokens:  34
+[2K  Throughput:     766.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m267s[0m
+[2K  [92m34[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7760.3 ms[0m
+[2K  Avg decode:     [93m1530.1 tok/s[0m
+[2K  Input tokens:   204,092
+[2K  Output tokens:  34
+[2K  Throughput:     764.0 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m268s[0m
+[2K  [92m34[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7760.3 ms[0m
+[2K  Avg decode:     [93m1530.1 tok/s[0m
+[2K  Input tokens:   204,092
+[2K  Output tokens:  34
+[2K  Throughput:     761.1 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 31/76[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m269s[0m
+[2K  [92m35[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7662.2 ms[0m
+[2K  Avg decode:     [93m1533.8 tok/s[0m
+[2K  Input tokens:   210,095
+[2K  Output tokens:  35
+[2K  Throughput:     780.6 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[2K  [93m[log] Warmup 36/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m270s[0m
+[2K  [92m35[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7662.2 ms[0m
+[2K  Avg decode:     [93m1533.8 tok/s[0m
+[2K  Input tokens:   210,095
+[2K  Output tokens:  35
+[2K  Throughput:     777.7 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
+[2K  [93m[log] Warmup 34/76[0m
+[2K  [93m[log] Warmup 35/76[0m
+[2K  [93m[log] Warmup 36/76[0m
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2K[1m──────────────────────────────────────────────────[0m
+[2K[1m Engine Benchmark[0m   elapsed: [96m271s[0m
+[2K  [92m35[0m successful   [96m1[0m in-flight   [91m0[0m failed
+[2K  Avg TTFT:       [93m7662.2 ms[0m
+[2K  Avg decode:     [93m1533.8 tok/s[0m
+[2K  Input tokens:   210,095
+[2K  Output tokens:  35
+[2K  Throughput:     774.9 in / 0.1 out tok/s
+[2K[1m──────────────────────────────────────────────────[0m
+[2K  [93m[log] Warmup 32/76[0m
+[2K  [93m[log] Warmup 33/76[0m
