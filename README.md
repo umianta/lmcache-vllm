@@ -235,6 +235,12 @@ xychart-beta
     bar [37, 16, 52, 124, 10, 11]
 ```
 
+> **LMCache delivers up to 124× speedup on P99 TTFT and 37× on mean TTFT.** When a
+> document's KV cache is already stored in LMCache L1, vLLM skips prefill entirely and
+> serves the response from CPU RAM — eliminating the most expensive part of inference for
+> repeated or shared long-context workloads. Input and output throughput both improve
+> ~10× as a direct consequence of the reduced prefill load.
+
 ### Input Throughput: Cold vs Warm (tok/s, higher is better)
 
 ```mermaid
@@ -245,6 +251,12 @@ xychart-beta
     y-axis "tok/s" 0 --> 4000
     bar [365, 3568]
 ```
+
+> **Input throughput jumps from 365 to 3,568 tok/s — a 9.8× improvement.** Without
+> LMCache, every request forces vLLM to recompute the full prompt KV cache on the GPU.
+> With LMCache, the cached KV blocks are transferred from CPU RAM and injected directly
+> into the attention layers, freeing the GPU to handle far more concurrent requests in
+> the same wall-clock time.
 
 ### Output Throughput: Cold vs Warm (tok/s, higher is better)
 
@@ -257,6 +269,11 @@ xychart-beta
     bar [7, 76]
 ```
 
+> **Output throughput improves 10.7× from 7.1 to 75.9 tok/s.** Because LMCache removes
+> the prefill bottleneck, more GPU cycles are available for token generation. This means
+> higher concurrent users and faster end-to-end response times — directly translating to
+> lower infrastructure cost per request in production RAG and document QA pipelines.
+
 ### TTFT percentiles — Warm run (ms, lower is better)
 
 ```mermaid
@@ -267,6 +284,12 @@ xychart-beta
     y-axis "TTFT (ms)" 0 --> 1800
     bar [912, 855, 1234, 1664]
 ```
+
+> **Warm TTFT stays under 1.7 seconds even at P99 — down from 206 seconds cold.**
+> The tight P50–P99 spread (855 ms to 1,664 ms) shows that LMCache delivers consistent
+> low-latency responses regardless of document length. In the cold baseline, P99 TTFT
+> reached 206 seconds due to long prefill queues; with LMCache, that tail latency is
+> eliminated and user-facing latency becomes predictable and production-grade.
 
 ### Notes
 
