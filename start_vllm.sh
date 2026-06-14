@@ -27,17 +27,10 @@ GPU_MEM="${VLLM_GPU_MEM:-0.24}"
 KV_CONFIG=$(printf '{"kv_connector":"LMCacheMPConnector","kv_role":"kv_both","kv_connector_extra_config":{"lmcache.mp.host":"%s","lmcache.mp.port":%s}}' \
     "$LMCACHE_HOST" "$LMCACHE_PORT")
 
-# Wait for LMCache ZMQ to be ready before connecting
-echo "Waiting for LMCache server on $LMCACHE_HOST:$LMCACHE_PORT ..."
+# Wait for LMCache ZMQ to be ready (use nc — avoids IPv6/localhost resolution issues)
+echo "Waiting for LMCache server on 127.0.0.1:$LMCACHE_PORT ..."
 for i in $(seq 1 30); do
-    if "$VENV/bin/python3" -c "
-import socket, sys
-host = '${LMCACHE_HOST}'.replace('tcp://', '')
-try:
-    s = socket.create_connection((host, ${LMCACHE_PORT}), timeout=1)
-    s.close(); sys.exit(0)
-except: sys.exit(1)
-" 2>/dev/null; then
+    if nc -z 127.0.0.1 "$LMCACHE_PORT" 2>/dev/null; then
         echo "LMCache is ready."
         break
     fi
