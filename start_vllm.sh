@@ -56,7 +56,7 @@ echo "  max-model-len    : $MAX_LEN"
 echo "  lmcache server   : $LMCACHE_HOST:$LMCACHE_PORT"
 echo ""
 
-exec "$VENV/bin/vllm" serve "$MODEL" \
+exec env VLLM_ENGINE_READY_TIMEOUT_S=900 "$VENV/bin/vllm" serve "$MODEL" \
     --port "$PORT" \
     --gpu-memory-utilization "$GPU_MEM" \
     --max-model-len "$MAX_LEN" \

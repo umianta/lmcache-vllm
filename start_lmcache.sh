@@ -13,7 +13,9 @@ if [ ! -f "$VENV/bin/lmcache" ]; then
     exit 1
 fi
 
+L1_SIZE="${LMCACHE_L1_SIZE_GB:-10}"
+
 exec "$VENV/bin/lmcache" server \
-    --l1-size-gb 20 \
+    --l1-size-gb "$L1_SIZE" \
     --eviction-policy LRU \
     --chunk-size 16
