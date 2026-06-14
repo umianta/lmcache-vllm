@@ -14,6 +14,13 @@ if [ ! -d "$VENV" ]; then
     python3 -m venv "$VENV"
 fi
 
+# Fix stale shebangs if venv was copied from another directory
+STALE=$(grep -rl "#!" "$VENV/bin/" 2>/dev/null | xargs grep -l "^#!.*python" 2>/dev/null | xargs grep -lv "^#!$VENV" 2>/dev/null || true)
+if [ -n "$STALE" ]; then
+    echo "Fixing stale shebangs in .venv/bin/ ..."
+    echo "$STALE" | xargs sed -i "s|^#!.*/bin/python|#!$VENV/bin/python|"
+fi
+
 # Bootstrap pip if missing (Ubuntu may omit it; ensurepip installs pip3/pip3.x)
 if ! "$PYTHON" -m pip --version &>/dev/null; then
     echo "Bootstrapping pip..."
