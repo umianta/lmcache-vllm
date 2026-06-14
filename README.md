@@ -194,9 +194,9 @@ curl -X POST http://localhost:8080/clear-cache
 
 ## Benchmark Results
 
-Measured on NVIDIA DGX Spark (GB10, 121.63 GiB unified memory) with Gemma4 stopped
-to free GPU memory. Cold run = empty LMCache. Warm run = LMCache L1 populated from
-the cold run (cross-run caching).
+Measured on NVIDIA DGX Spark (GB10, 121.63 GiB unified memory) with dedicated GPU
+memory allocated to a single model instance. Cold run = empty LMCache cache.
+Warm run = LMCache L1 populated from the cold run (cross-run caching).
 
 ### Configuration
 
