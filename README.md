@@ -58,13 +58,22 @@ LMCache standalone server
 
 ### 1 — Install
 
+On Ubuntu, ensure `python3-venv` is available before running the installer:
+
+```bash
+sudo apt install python3-venv python3-full
+```
+
+Then clone and install:
+
 ```bash
 git clone https://github.com/umianta/lmcache-vllm
 cd lmcache-vllm
 ./install.sh
 ```
 
-Creates `.venv/` and installs `vllm` and `lmcache[vllm]`.
+Creates `.venv/` and installs `vllm` and `lmcache[vllm]` into it using the venv's
+own pip — no system packages are touched.
 
 ### 2 — Start LMCache server (terminal 1)
 
@@ -173,6 +182,23 @@ Another process is using the GPU. Check usage and lower the fraction:
 nvidia-smi --query-compute-apps=pid,process_name,used_memory --format=csv
 VLLM_GPU_MEM=0.20 ./start_vllm.sh
 ```
+
+### `error: externally-managed-environment` during install
+
+Ubuntu 22.04+ prevents pip from installing into the system Python. The fix is to
+ensure `python3-venv` is installed so the venv can be created with its own pip:
+
+```bash
+sudo apt install python3-venv python3-full
+./install.sh
+```
+
+The scripts never touch the system Python — all binaries are called as
+`.venv/bin/pip`, `.venv/bin/vllm`, etc.
+
+### `exec: lmcache: not found` or `exec: vllm: not found`
+
+The venv does not exist yet. Run `./install.sh` first.
 
 ### `Cannot reach http://localhost:8080`
 
