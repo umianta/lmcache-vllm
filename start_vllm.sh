@@ -27,6 +27,27 @@ GPU_MEM="${VLLM_GPU_MEM:-0.24}"
 KV_CONFIG=$(printf '{"kv_connector":"LMCacheMPConnector","kv_role":"kv_both","kv_connector_extra_config":{"lmcache.mp.host":"%s","lmcache.mp.port":%s}}' \
     "$LMCACHE_HOST" "$LMCACHE_PORT")
 
+# Wait for LMCache ZMQ to be ready before connecting
+echo "Waiting for LMCache server on $LMCACHE_HOST:$LMCACHE_PORT ..."
+for i in $(seq 1 30); do
+    if "$VENV/bin/python3" -c "
+import socket, sys
+host = '${LMCACHE_HOST}'.replace('tcp://', '')
+try:
+    s = socket.create_connection((host, ${LMCACHE_PORT}), timeout=1)
+    s.close(); sys.exit(0)
+except: sys.exit(1)
+" 2>/dev/null; then
+        echo "LMCache is ready."
+        break
+    fi
+    if [ "$i" -eq 30 ]; then
+        echo "ERROR: LMCache not reachable after 30s. Run ./start_lmcache.sh first." >&2
+        exit 1
+    fi
+    sleep 1
+done
+
 echo "Starting vLLM"
 echo "  model            : $MODEL"
 echo "  port             : $PORT"
