@@ -5,7 +5,12 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$SCRIPT_DIR/.venv/bin/activate"
+VENV="$SCRIPT_DIR/.venv"
+
+if [ ! -f "$VENV/bin/vllm" ]; then
+    echo "ERROR: venv not found or vllm not installed. Run ./install.sh first." >&2
+    exit 1
+fi
 
 MODEL="${VLLM_MODEL:-Qwen/Qwen3-8B}"
 PORT="${VLLM_PORT:-8001}"
@@ -30,7 +35,7 @@ echo "  max-model-len    : $MAX_LEN"
 echo "  lmcache server   : $LMCACHE_HOST:$LMCACHE_PORT"
 echo ""
 
-exec vllm serve "$MODEL" \
+exec "$VENV/bin/vllm" serve "$MODEL" \
     --port "$PORT" \
     --gpu-memory-utilization "$GPU_MEM" \
     --max-model-len "$MAX_LEN" \
